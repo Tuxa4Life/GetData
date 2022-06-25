@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Fascinate', cursive;
+  font-family: 'Open Sans', sans-serif;
+}
+
+html {
+  overflow-y: hidden;
+}
+
+nav {
+  height: 3vh;
+  width: 100%;
+  border-bottom: 1px #bbbbbb solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav img {
+  height: 50%;
+  margin: 0 20px;
+}
+
+nav p {
+  color: gray;
+  font-weight: bold;
+}
+
+.container {
+  width: 100%;
+  background-color: #f1f1f1;
+  height: 97vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .card {
+  width: 500px;
+  height: 600px;
+  background-color: white;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 3px;
+}
+
+.container .card img {
+  width: 40%;
+  margin: 0 20px;
+}
+
+.container .card .upper-part {
+  margin: 5%;
+  width: 90%;
+  height: 12%;
+}
+
+.container .card .upper-part p:first-child {
+  font-size: 32px;
+}
+
+.container .card form {
+  margin: 5%;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .card form input {
+  height: 40px;
+  padding: 2px 6px 3px 6px;
+  font-size: 18px;
+  border-radius: 3px;
+  border: 1px #bbbbbb solid;
+  outline: none;
+}
+
+.container .card form button {
+  background-color: #3d5ada;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  width: 70px;
+  margin-left: 80%;
+  height: 30px;
+  cursor: pointer;
+}
+
+.container .card p {
+  margin: 20px 5%;
+  width: 90%;
+}
+
+.container .card .btn-holder {
+  width: 90%;
+  margin: 0 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  margin-top: 20px;
+}
+
+.container .card .btn-holder button {
+  background-color: #3d5ada;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  width: 70px;
+  height: 30px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=google.css.map */

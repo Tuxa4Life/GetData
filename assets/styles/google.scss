@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fascinate', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html {
+    overflow-y: hidden;
+}
+
+nav {
+    height: 3vh;
+    width: 100%;
+    border-bottom: 1px rgb(187, 187, 187) solid;
+    display: flex;
+    align-items: center;
+    img {
+        height: 50%;
+        margin: 0 20px;
+    }
+    p {
+        color: gray;
+        font-weight: bold;
+    }
+}
+
+.container {
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+    height: 97vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .card {
+        width: 500px;
+        height: 600px;
+        background-color: white;
+        border-radius: 3px;
+        box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.2);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 3px;
+        img {
+            width: 40%;
+            margin: 0 20px;
+        }
+        .upper-part {
+            margin: 5%;
+            width: 90%;
+            height: 12%;
+            p:first-child {
+                font-size: 32px;
+            }
+        }
+        form {
+            margin: 5%;
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            input {
+                height: 40px;
+                padding: 2px 6px 3px 6px;
+                font-size: 18px;
+                border-radius: 3px;
+                border: 1px rgb(187, 187, 187) solid;
+                outline: none;
+            }
+            button {
+                background-color: rgb(61, 90, 218);
+                color: white;
+                border: none;
+                border-radius: 3px;
+                width: 70px;
+                margin-left: 80%;
+                height: 30px;
+                cursor: pointer;
+            }
+        }
+        p {
+            margin: 20px 5%;
+            width: 90%; 
+        }
+        .btn-holder {
+            width: 90%;
+            margin: 0 5px;
+            display: flex;
+            align-items: center;
+            justify-content: right;
+            margin-top: 20px;
+            button {
+                background-color: rgb(61, 90, 218);
+                color: white;
+                border: none;
+                border-radius: 3px;
+                width: 70px;
+                height: 30px;
+                cursor: pointer;
+            }
+        }
+    }
+}
